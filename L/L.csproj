@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.0" />
+      <PackageReference Include="TryCatch" Version="0.2.1" />
+      <PackageReference Include="TryCatch.Cqrs.Lightweight" Version="0.2.1" />
+      <PackageReference Include="TryCatch.Cqrs.Lightweight.Queries" Version="0.2.1" />
+      <PackageReference Include="TryCatch.EntityFrameworkCore" Version="0.1.0" />
+      <PackageReference Include="TryCatch.Hateoas" Version="0.2.1" />
+      <PackageReference Include="TryCatch.Managers" Version="0.2.1" />
+      <PackageReference Include="TryCatch.MongoDb" Version="0.2.1" />
+      <PackageReference Include="TryCatchBuilder" Version="1.0.0" />
+      <PackageReference Include="TryCatchFinally.Fluent.NetStandard" Version="1.2.0" />
+    </ItemGroup>
+
+</Project>
