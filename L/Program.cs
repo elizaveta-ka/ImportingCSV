@@ -2,8 +2,6 @@
 
 using Npgsql;
 
-Console.WriteLine("Hello, World!");
-
 // Database connection variable.
 NpgsqlConnection connect = new NpgsqlConnection(
     "Server=localhost:5432;" +
